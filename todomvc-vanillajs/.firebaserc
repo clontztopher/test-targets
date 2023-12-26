@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "test-targets-aeef4"
+  },
+  "targets": {
+    "test-targets-aeef4": {
+      "hosting": {
+        "todomvc-vanillajs": [
+          "todomvc-vanillajs"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
