@@ -1,0 +1,11 @@
+{
+    "name": "todomvc-vanillajs",
+    "version": "1.0.0",
+    "description": "TodoMVC - Vanilla JS App.",
+    "scripts": {
+      "start": "cd public && npx wds --open --watch",
+      "deploy": "firebase deploy --only hosting"
+    },
+    "author": "Chris Clontz",
+    "license": "ISC"
+  }
