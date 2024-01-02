@@ -4,7 +4,7 @@
   "description": "Test targets website package.",
   "scripts": {
     "start": "cd public && npx wds --open --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "firebase deploy --only hosting"
   },
   "author": "Chris Clontz",
   "license": "ISC"

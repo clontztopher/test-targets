@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "test-targets-aeef4"
-  }
+  },
+  "targets": {
+    "test-targets-aeef4": {
+      "hosting": {
+        "base": [
+          "test-targets-aeef4"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
