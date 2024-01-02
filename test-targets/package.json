@@ -1,0 +1,11 @@
+{
+  "name": "test-targets",
+  "version": "1.0.0",
+  "description": "Test targets website package.",
+  "scripts": {
+    "start": "cd public && npx wds --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Clontz",
+  "license": "ISC"
+}
