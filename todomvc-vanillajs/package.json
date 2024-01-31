@@ -3,9 +3,12 @@
     "version": "1.0.0",
     "description": "TodoMVC - Vanilla JS App.",
     "scripts": {
-      "start": "cd public && npx wds --open --watch",
-      "deploy": "firebase deploy --only hosting"
+        "start": "cd public && npx wds --open --watch",
+        "deploy": "firebase deploy --only hosting"
     },
     "author": "Chris Clontz",
-    "license": "ISC"
-  }
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^13.6.4"
+    }
+}
